@@ -11,7 +11,8 @@ kotlin {
     sourceSets {
         jsMain {
             dependencies {
-                implementation(project(":kjs-streams-api"))
+//                implementation(project(":kjs-streams-api"))
+                implementation("name.faerytea.kjs.wrapper.streams:kjs-streams-api-js:0.0.1")
             }
         }
     }
